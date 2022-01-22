@@ -2,7 +2,7 @@
 Automatically draw lots of あしあと抽選ポイント(Ashiato Chusen Point) in honto
 
 ## Initial setting
-Make json file for personal information
+Make secret.json for personal information
 ``` secret.json 
 {
 	"MAIL_ADDRESS":"yourMailAddress@example.com",
