@@ -5,7 +5,7 @@ from email.mime.application import MIMEApplication
 import json
 
 def honto_email():
-    json_open = open('secret.json', 'r')
+    json_open = open('/home/ken/honto/secret.json', 'r')
     json_key = json.load(json_open)
     smtp_server = "smtp.gmail.com"
     smtp_port = 587

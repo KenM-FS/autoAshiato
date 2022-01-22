@@ -7,7 +7,8 @@ import time
 import json
 
 # load json file
-json_open = open('secret.json', 'r')
+## inpul full path to use with crontab
+json_open = open('/home/ken/honto/secret.json', 'r')
 json_key = json.load(json_open)
 
 # setup selenium

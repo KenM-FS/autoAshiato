@@ -11,6 +11,13 @@ Make json file for personal information
 }
 ```
 
+Change path of secret.json and geckodriver respectively in the environment
+- autoAshiato.py
+	- line 10: secret.json
+	- line 16: geckodriver
+- mailerAshiato.py
+	- line  8: secret.json
+
 ## Set crontab
 19:00 UTC is 04:00 JST when Ashiato Chusen Point lottery is updated
 ```
