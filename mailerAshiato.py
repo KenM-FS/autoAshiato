@@ -16,7 +16,6 @@ def honto_email():
     from_address = smtp_user
     subject = "Unusual status on Ashiato, honto"
     body = "Unusual status has been confirmed on Ashiato point, honto."
-    filename = "screenshot"
 
     msg = MIMEMultipart()
     msg["Subject"] = subject
