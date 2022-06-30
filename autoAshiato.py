@@ -24,6 +24,8 @@ PASS = json_key['HONTO_PASS']
 driver.find_element(By.ID, "dy_lginId").send_keys(MAIL_ADDRESS)
 driver.find_element(By.ID, "dy_pw").send_keys(PASS)
 driver.find_element(By.ID, "dy_btLgin").click()
+time.sleep(10)
+driver.save_screenshot('login.png')
 
 # draw lots
 driver.get('https://honto.jp/my/account/point/footmark.html')
@@ -41,3 +43,5 @@ else:
     if winPoint != "1":
         honto_email()
 
+driver.close()
+driver.quit()
